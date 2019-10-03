@@ -1,3 +1,4 @@
+library(dplyr)
 #Assign each data to Respective variables
 
 features <- read.table("./UCI HAR Dataset/features.txt", col.names = c("n","functions"))
