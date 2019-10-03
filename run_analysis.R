@@ -36,3 +36,4 @@ names(TidyData_ms)<-gsub("Mag", "Magnitude", names(TidyData_ms))
 Final <- TidyData_ms %>% group_by(subject,Activity) %>% summarise_all(mean)
 
 write.table(Final, "Tidy_Data.txt", row.name=FALSE)
+

@@ -65,6 +65,7 @@ Assign each data to variables
         Export Final into Tidy_Data.txt file.
 
 
+
 ```{r}
 str(Final)
 ```
